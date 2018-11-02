@@ -11,9 +11,10 @@ from com.lsx.model.game_stats import GameStats
 from com.lsx.model.button import Button
 import com.lsx.module.game_funtions as mgf
 
-
+###异形入侵游戏入口
 
 class alienInvasionGame():
+
     def run_game():
         """"初始化游戏并创建一个屏幕对象,并且写入标题"""
         pygame.init()
